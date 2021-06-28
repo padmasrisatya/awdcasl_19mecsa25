@@ -1,0 +1,17 @@
+
+import java.util.*;
+
+public class CheckOddEvenNumber 
+{
+    public static void main(String[] args) 
+{
+        Scanner cs = new Scanner(System.in);
+        System.out.print("Enter the Number:");
+        int number = cs.nextInt();
+        if ((number & 1) == 1)
+            System.out.print(number + " is an Odd Number.");
+        else
+            System.out.print(number + " is an Even Number.");
+        cs.close();
+    }
+}  
