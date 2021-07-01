@@ -1,0 +1,39 @@
+import java.util.*;
+class Pattern
+{
+    public static void main(String args[]){
+int n,temp;
+Scanner sc=new Scanner (System.in);
+n=sc.nextInt();
+temp=n-1;
+for(int i=0;i<n;i++)
+{
+    for(int j=0;j<=i;j++)
+    {
+        System.out.print("*");
+    }
+    System.out.println();
+}
+for(int i=0;i<n;i++)
+{
+    for(int j=0;j<temp;j++)
+{
+    System.out.print("*");
+}
+System.out.println();
+temp--;
+ }
+}
+} 
+   Output: 
+          java -cp /tmp/shKCR4EhNe Pattern
+5
+*
+**
+***
+****
+*****
+****
+***
+**
+*
