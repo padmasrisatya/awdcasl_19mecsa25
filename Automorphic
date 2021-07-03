@@ -1,0 +1,27 @@
+import java.util.*;
+class Automorphic
+{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num = in.nextInt();
+        int n=0, sqr = num*num;
+        int temp =num;
+        while(temp>0){
+            n++;
+            temp=temp/10;
+        }
+        int lastSquareDigits = (int) (sqr%(Math.pow(10,n)));
+        if(num == lastSquareDigits)
+            System.out.println("Number is Automorphic Number");
+        else
+            System.out.println("Number is Not an Automorphic Number");
+    }
+}
+  
+    Output:
+              java -cp /tmp/QWCcmobAT7 Automorphic
+Enter a number 76
+
+Number is Automorphic Number
