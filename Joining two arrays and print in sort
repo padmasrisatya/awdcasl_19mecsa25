@@ -1,0 +1,25 @@
+import java.util.*; 
+class frame1 
+{ 
+public static void main(String args[]) 
+{
+ArrayList<Integer> a1 = new ArrayList<Integer>();
+a1.add("10");
+a1.add("20");
+a1.add("30");
+a1.add("40");
+a1.add("50");
+System.out.println("List of first array " + a1);
+ArrayList<Integer> a2 = new ArrayList <Integer>();
+a2.add("100");
+a2.add("200");
+a2.add("300");
+a2.add("400");
+a2.add("500");
+System.out.println(" New array : "+a);
+}
+}
+  
+  Output:  New array:
+           10,20,30,40,50,100,200,300,400,500
+            
