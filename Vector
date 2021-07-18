@@ -1,0 +1,33 @@
+import java.util.*;
+class v1{
+public static void main (String args []){
+Vector v = new Vector ();
+v.add(101);
+v.add("rama");
+v.add(6.58);
+v.add(102);
+v.add("gita");
+v.add(8.98);
+System.out println (" values in Vector : " +v);
+System.out. println (" v.remove(v.index(gita));
+for(int i=0;i<v.size();i++)
+{
+System.out.println("values in Vector:"+v);
+System.out.println (" ");
+}
+v.set(6.58,9.17);
+if(v.contain(sita))
+{
+System.out.println (" element is found in Vector ");
+else
+{
+System.out.println(" element is not found in Vector print false");
+}
+}
+}
+} 
+     Output: 1. 101,rama,6.58,102,gita,8.98
+             2. 101,rama,6.58,102,8.98 
+             3. 101,rama,9.17,102,8.98
+             4. false 
+
