@@ -1,0 +1,47 @@
+import java.until*;
+Class Link menu
+{
+Public Static Void main(String args[])(
+{
+Scanner SC=new Scanner (System.in);
+LinkedList<Integer>X=new LinkedList<Integer>();
+int n,Ch;
+do
+{
+S.o.ph("1.Beginlnsert\n 2.EndInsert\n 3.position Insert\m 4.BegingDelete\n 5.EndDelete\n 6. position Delete\n 7.Display\n 8. exit\n...Enter your choice");
+ch=SC:nectlnt();
+Switch (Ch)
+{
+case 1: System.out.println("Enter n value");
+n=SC.nextlnt();
+X.addFirst(n);
+break;
+case2:System out println("Enter n value");
+n=SC.nextInt();
+X.addlast(n);
+break;
+case3:s.o.ph("Enter n value");
+n=SC.nextInt();
+X.addIndex(n);
+break;
+case4:s.o.ph("Enter n value");
+n=SC.nextInt();
+X.removeFirst(n);
+break;
+case5:s.o.ph("Enter n value");
+n=SC.nextInt();
+X.removeLast(n);
+break;
+Case6:s.o.ph("Enter n value");
+n=SC.nextInt();
+X.remove.Index(n);
+break;
+Case7:s.o.ph(X);
+default:s.o.ph("Invalid Choice");
+}
+S.o.ph("1.BeginInsert 2.EndInsert 3.positionDelete 4.BeginDelete 5.EndDelete 6. Position Delete 7.Display 8.Exit Enter your choice");
+Ch.SC.nextInt();
+} while (Ch<7);
+}
+}
+ 
