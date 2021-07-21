@@ -1,0 +1,28 @@
+
+import java.util.*; 
+class map1 {
+ public static void main(String args[]) { 
+HashMap<String ,String> x=new HashMap<String,String>();
+int[] str= {"Rama"};
+int[] str= {"John"};
+int[] str= {"Rama"};
+int[] str= {"sri"};
+int[] str= {"Rama"};
+int[] str= {"Raja"};
+int[] str= {"Rama"};
+int[] str= {"John"};
+int[] str= {"john"};
+ for(int i=0;i<str.length;i++) {
+ int key; key=str[i];
+ if(x.containsKey(key)) 
+x.put(key,x.get(key)+1);
+ else x.put(key,1); } 
+ for (Map.Entry<String, String> i : x.entrySet()) 
+{ 
+if(i.getValue()>2) 
+System.out.println(i.getKey() + " " + i.getValue()); 
+}
+}
+} 
+   Output : Rama:4
+            John:3
