@@ -1,0 +1,30 @@
+import java.util.*;
+import java.io.*;
+class Sample {
+public static void main (String args []){
+Scanner sc = new Scanner (System.in);
+int n = sc.nextInt();
+HaspMap<String,Integer> x = new HaspMap<String,Integer>();
+for ( int i = 0;i<n;i++){
+String name = sc.next()
+int phone = sc.nextInt();
+x.put(name, phone );
+}
+try
+{
+for (int j= 0; j<n;j++)
+{
+String s=sc.next();
+if (x.containskey (s))
+System.out println (s+ "="+.get(s));
+else
+System.out.println("Not found");
+}
+}
+catch(exception e){}
+in.close();
+}
+} 
+    Output: sam=9991222285
+            Not found
+            harry=9965656837
