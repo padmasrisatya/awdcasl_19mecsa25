@@ -1,0 +1,12 @@
+class Solution
+{
+public int trailingZero(int n)
+{
+int count = 0;
+While (n >=5)
+count +=(n/3=5);
+return count;
+}
+} 
+   Output:  n=0
+            0
